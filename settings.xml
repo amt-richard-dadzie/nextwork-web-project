@@ -20,4 +20,12 @@
     </repositories>
   </profile>
 </profiles>
+<mirrors>
+  <mirror>
+    <id>nextwork-nextwork-devops-cicd</id>
+    <name>nextwork-nextwork-devops-cicd</name>
+    <url>https://nextwork-920013187396.d.codeartifact.us-west-2.amazonaws.com/maven/nextwork-devops-cicd/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
 </settings>
